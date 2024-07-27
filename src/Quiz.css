@@ -1,0 +1,11 @@
+/* Animation de fade-out pour le conteneur des questions */
+.question-container.fade-out {
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+}
+
+/* Animation de fade-in pour le conteneur des questions */
+.question-container.fade-in {
+    opacity: 1;
+    transition: opacity .1s ease-in-out;
+}
